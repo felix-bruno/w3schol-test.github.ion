@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d1d1d1; 
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 220px;
+    min-height: 100vh;
+    margin: auto;
+}
+img
+{
+    width: 185px;
+    margin-bottom: 10px;
+}
+form
+{
+    border-inline: 5px solid white;
+    padding:0 5px;
+    width: 100%;
+}
+div
+{
+    margin:5px;
+}
+label{
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+input[type="email"],input[type="password"]
+{
+    width: 100%;
+    margin-top: 5px;
+    padding: 6px;
+    border:none;
+}
+input[type="email"]:focus
+{
+    background-color: #d6d6d6;
+}
+input[type="email"]:invalid
+{
+    outline:1px solid red;
+}
+input[type="email"]:valid
+{
+    outline: 1px solid green;
+}
+/* =======Password======= */
+input[type="password"]:focus
+{
+    background-color: #d8d8d8;
+}
+input[type="password"]:invalid
+{
+    outline: 1px solid red;
+}
+input[type="password"]:valid
+{
+    outline: 1px solid green;
+}
+#content
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type="button"],input[type="submit"]
+{
+    padding: 6px 8px;
+    border:none;
+    color:white;
+}
+input[type="button"]
+{
+    background-color: gray;
+}
+input[type="submit"]
+{
+    background-color: royalblue;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    border-inline:5px solid white;
+}
+.link a:link
+{
+    color:darkblue;
+    text-decoration: none;
+    padding:2px 5px;
+}
+.link a:visited
+{
+    color: royalblue;
+}
+.link a:hover
+{
+    text-decoration-line: underline;
+}

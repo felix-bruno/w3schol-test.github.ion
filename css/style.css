@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+}
+
+/* =========Cabezera========== */
+
+.head {
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    background-color: #a2a2a2;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+.head h1 {
+    float: right;
+    color: white;
+}
+
+/* =========Navegación========= */
+
+.navegacion ul {
+    position: fixed;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: #dddddd;
+    overflow: auto;
+    list-style-type: none;
+    margin-top: 77px;
+}
+
+li {
+    text-align: center;
+}
+
+li:hover {
+    background-color: #d4d4d4;
+}
+
+li a.active {
+    background-color: #202020;
+    color: white;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration-line: none;
+    font-size: 1.2em;
+    color: black;
+}
+
+/* ==========Contenido========== */
+
+.contenido {
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 77px;
+    width: 75%;
+    height: 100%;
+    padding: 20px;
+    overflow: auto;
+    background-color:#d4d4d4;
+}
+figure
+{
+    margin-top: 25%;
+}
+/* ===========Pie de pagina=========== */
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    background-color: #a2a2a2;
+    padding: 20px;
+}
